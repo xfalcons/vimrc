@@ -88,24 +88,7 @@ PLUGINS
   
   `:help yankring` to see more info.
 
-* [VisIncr](http://www.vim.org/scripts/script.php?script_id=670): Produce increasing/decreasing columns of numbers, dates, or daynames.
-  
-* [Cute Error Marker](http://www.vim.org/scripts/script.php?script_id=2653): showing error and warning icons on line.
-  
-   MacVim users need to enable "Use experimental renderer" to see
-   graphical icons.
-
-* [vim-latex](http://vim-latex.sourceforge.net/): Latex support.
-
 * [OmniCppComplete](http://www.vim.org/scripts/script.php?script_id=1520): C/C++ omni-completion with ctags database.
-
-* [JavaComplete](http://www.vim.org/scripts/script.php?script_id=1785): Java Omni-completion.
-
-* [EasyMotion](https://github.com/Lokaltog/vim-easymotion): An easy way to jump to a word.
-
-  Useful commands:   
-    `,,w` forward EasyMotion   
-    `,,b` backward EasyMotion   
 
 * [TagBar](http://majutsushi.github.com/tagbar/): browsing the tags of source files ordered by classes.
 
@@ -115,8 +98,6 @@ PLUGINS
 Language specific supports
 --------------------------
 
-* Latex: Read `:help latex-suite.txt`
-* Restructured Text: `ctrl-u 1~5` inserts Part/Chapter/Section headers
 * HTML, Javascript, Python, CSS, C, C++, Java: use `TAB` to do omni-completion.
 * HTML/XML: End tags are automatically completed after typing a begin tag. (Typing > twice pushes the end tag to a new line.)
 
