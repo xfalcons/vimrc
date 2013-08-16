@@ -162,6 +162,16 @@ cnoremap <C-A>      <Home>
 cnoremap <C-E>      <End>
 cnoremap <C-K>      <C-U>
 
+" PHP Folding
+map <F5> <Esc>:EnableFastPHPFolds<Cr>
+map <F6> <Esc>:EnablePHPFolds<Cr>
+map <F7> <Esc>:DisablePHPFolds<Cr>
+
+" PHP Documentation plugin.
+inoremap <C-K> <ESC>:call PhpDocSingle()<CR>i
+nnoremap <C-K> :call PhpDocSingle()<CR>
+vnoremap <C-K> :call PhpDocRange()<CR>
+
 " ,p toggles paste mode
 nmap <leader>p :set paste!<BAR>set paste?<CR>
 
@@ -314,3 +324,18 @@ let g:tagbar_autofocus = 1
 " --- PowerLine
 " let g:Powerline_symbols = 'fancy' " require fontpatcher
 
+" --- Syntax highlight for vimdiff
+highlight DiffAdd term=reverse cterm=bold ctermbg=green ctermfg=black
+highlight DiffChange term=reverse cterm=bold ctermbg=cyan ctermfg=black
+highlight DiffText term=reverse cterm=bold ctermbg=gray ctermfg=black
+highlight DiffDelete term=reverse cterm=bold ctermbg=red ctermfg=black
+
+" Syntax highlight.
+" syntax on
+hi Comment term=standout cterm=bold ctermfg=0
+highlight Search term=reverse ctermbg=3 ctermfg=0
+highlight Normal ctermbg=black ctermfg=white
+highlight Folded ctermbg=black ctermfg=darkcyan
+hi Cursor ctermbg=Gray ctermfg=Blue
+highlight clear SpellBad
+highlight SpellBad term=underline cterm=underline ctermfg=red
