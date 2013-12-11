@@ -1,4 +1,7 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =2
+let g:netrw_dirhist_cnt =5
 let g:netrw_dirhist_1='/Volumes/MacHD/Users/kevin_luo/dev/miiitv/index/modules/home/controllers'
 let g:netrw_dirhist_2='/Volumes/MacHD/Users/kevin_luo/bin'
+let g:netrw_dirhist_3='/Users/kevin_luo/android/miiitv-box-net-wizard/MiiiAndroidLibrary'
+let g:netrw_dirhist_4='/Users/kevin_luo/android/android_miiitv_apps/android_miiitv_app'
+let g:netrw_dirhist_5='/Users/kevin_luo/android/android_miiitv_apps/android_miiitv_app/build'
