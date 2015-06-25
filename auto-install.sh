@@ -10,11 +10,10 @@ die() {
     exit 1
 }
 
-# [ -e "$VIMHOME/vimrc" ] && die "$VIMHOME/vimrc already exists."
-# [ -e "~/.vim" ] && die "~/.vim already exists."
+[ -e "~/.vim" ] && die "~/.vim already exists."
 [ -e "~/.vimrc" ] && die "~/.vimrc already exists."
 
-git clone git://github.com/xfalcons/vimrc.git "$VIMHOME"
+git clone https://github.com/xfalcons/vimrc.git "$VIMHOME"
 cd "$VIMHOME"
 git submodule update --init
 
@@ -23,4 +22,4 @@ git submodule update --init
 # cd bundle/command-t/ruby/command-t
 # (ruby extconf.rb && make) || warn "Can't compile Command-T."
 
-echo "xfalcons's vimrc is installed."
+echo "Linux-Ubuntu vimrc is installed."
