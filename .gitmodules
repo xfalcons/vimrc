@@ -22,3 +22,12 @@
 [submodule "bundle/align"]
 	path = bundle/align
 	url = https://github.com/tsaleh/vim-align.git
+[submodule "bundle/Vundle"]
+    path = bundle/Vundle
+    url = https://github.com/gmarik/Vundle.vim.git
+[submodule "bundle/indentpython"]
+    path = bundle/indentpython
+    url = https://github.com/vim-scripts/indentpython.vim
+[submodule "bundle/SimpylFold"]
+    path = bundle/SimpylFold
+    url = https://github.com/tmhedberg/SimpylFold
