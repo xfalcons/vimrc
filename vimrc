@@ -332,10 +332,9 @@ highlight DiffDelete term=reverse cterm=bold ctermbg=red ctermfg=black
 
 " Syntax highlight.
 " syntax on
-hi Comment term=standout cterm=bold ctermfg=0
+highlight Comment term=standout cterm=bold ctermfg=0
 highlight Search term=reverse ctermbg=3 ctermfg=0
-highlight Normal ctermbg=black ctermfg=white
 highlight Folded ctermbg=black ctermfg=darkcyan
-hi Cursor ctermbg=Gray ctermfg=Blue
+highlight Cursor ctermbg=Gray ctermfg=Blue
 highlight clear SpellBad
 highlight SpellBad term=underline cterm=underline ctermfg=red
