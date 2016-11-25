@@ -76,25 +76,6 @@ PLUGINS
 
 * [xmledit](http://www.vim.org/scripts/script.php?script_id=301): XML/HTML tags will be completed automatically.
 
-* [Command-T](https://github.com/wincent/Command-T): open and navigate between files with `cmd-t`.
-  
-* [SuperTab](http://www.vim.org/scripts/script.php?script_id=1643): Do all your insert-mode completion with Tab.
-
-* [snipMate](http://www.vim.org/scripts/script.php?script_id=2540): TextMate-style snippets for Vim
-
-  `:help snipMate` to see more info.
-
-* [YankRing](http://www.vim.org/scripts/script.php?script_id=1234): Maintains a history of previous yanks, changes and deletes 
-  
-  `:help yankring` to see more info.
-
-* [OmniCppComplete](http://www.vim.org/scripts/script.php?script_id=1520): C/C++ omni-completion with ctags database.
-
-* [TagBar](http://majutsushi.github.com/tagbar/): browsing the tags of source files ordered by classes.
-
-  Useful commands:    
-    `F7` toggles the TagBar
-
 Language specific supports
 --------------------------
 
