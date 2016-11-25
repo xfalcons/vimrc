@@ -273,7 +273,7 @@ highlight DiffDelete term=reverse cterm=bold ctermbg=red ctermfg=black
 " syntax on
 " highlight Comment term=standout cterm=bold ctermfg=0
 " highlight Search term=reverse ctermbg=3 ctermfg=0
-" highlight Folded ctermbg=black ctermfg=darkcyan
+highlight Folded ctermbg=black ctermfg=darkcyan
 " highlight Cursor ctermbg=Gray ctermfg=Blue
 " highlight clear SpellBad
 " highlight SpellBad term=underline cterm=underline ctermfg=red
